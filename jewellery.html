@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding-----Planner</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <header class="head">
+        <a href="#" class="logo"><i class="fas fa-heart"></i>&nbsp;Baand<span>Baaja</span>Baaraat&nbsp;<i class="fas fa-heart"></i></a>
+        <nav class="navbar ">
+            <a href="main.html" class="active">Home</a>
+           
+            <a href="#contact">Contact</a>
+           
+        </nav>
+        <div id="menu-bar"><i class="fas fa-bars"></i></div>
+    </header>
+  
+    
+ 
+    <section class="invite" id="invite">
+      <div class="title">
+          <h1>J<span>ewellery</span></h1>
+          
+      </div>
+      <div class="invitation-row">
+          <div class="invitation-box">
+              <img src="jewel/download (15).jpeg" alt="">
+          </div>
+          <div class="invitation-box">
+              <img src="jewel/images - 2023-06-18T214425.814.jpeg" alt="">
+          </div>
+          <div class="invitation-box">
+              <img src="jewel/images - 2023-06-18T214431.003.jpeg" alt="">
+          </div>
+          <div class="invitation-box">
+              <img src="jewel/images - 2023-06-18T214504.852.jpeg" alt="">
+          </div>
+          <div class="invitation-box">
+              <img src="jewel/images - 2023-06-18T214514.952.jpeg" alt="">
+          </div>
+          <div class="invitation-box">
+              <img src="jewel/images - 2023-06-18T214554.900.jpeg" alt="">
+          </div>
+          <div class="invitation-box">
+              <img src="jewel/images - 2023-06-18T214612.350.jpeg" alt="">
+          </div>
+          <div class="invitation-box">
+              <img src="jewel/images - 2023-06-18T214625.724.jpeg" alt="">
+          </div>
+          <div class="invitation-box">
+              <img src="jewel/images - 2023-06-18T214629.229.jpeg" alt="">
+          </div>
+          <div class="invitation-box">
+              <img src="jewel/images - 2023-06-18T214631.871.jpeg" alt="">
+          </div>
+          <div class="invitation-box">
+              <img src="jewel/images - 2023-06-18T214636.944.jpeg" alt="">
+          </div>
+          <div class="invitation-box">
+              <img src="jewel/images - 2023-06-18T214645.249.jpeg" alt="">
+          </div>
+      </div>
+  </section>
+
+   
+    <!--------------------------------------------footer section--------------------------->
+    <footer id="contact">
+        <div class="container">
+            <div class="f-container">
+                <h2>Baand Baaja Baaraat - Your Personal Wedding Planner</h2><br>
+                <p>Make your wedding memeorable with us </p>
+                <div>
+                    <button class="btn">Register as a Vendor</button>
+                </div>
+                <div class="social">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-pinterest"></i>
+                </div>
+            </div>
+            <div class="f-container">
+                <h2>Our Location</h2>
+                <a href="#"><i class="fas fa-angle-right"></i>Mangalore</a>
+                <a href="#"><i class="fas fa-angle-right"></i>Udupi</a>
+                <a href="#"><i class="fas fa-angle-right"></i>Puttur</a>
+                <a href="#"><i class=" fas fa-angle-right "></i>Sullia</a>
+                <a href="#"><i class="fas fa-angle-right "></i>Belthangady</a>
+                <a href="#"><i class="fas fa-angle-right "></i>Kasaragod</a>
+                <a href="#"><i class="fas fa-angle-right "></i>Kanhangad</a>
+                <a href="#"><i class="fas fa-angle-right "></i>Madikeri(Coorg)</a>
+                </div>
+                
+                <div class="f-container ">
+                    <h2>Feedback</h2>
+                    <p>Customer Feedback</p>
+                   
+                    <input type="text " placeholder="Enter Your Name ">
+                    <input type="text " placeholder="Enter Your Email ">
+                    <div class="f-container">
+                        <textarea name="Feedback" id="" cols="40" rows="10" placeholder="Enter Your Feedback"></textarea>
+                         
+                        <button class="btn">Submit</button>
+                      </div>
+            </div>
+        </footer>
+        <div class="copyright ">
+            <p>Copyright ©2022 All Rights Reserved | Baand Baaja Baaraat</p>
+        </div>
+</body>
+<script>
+     let menu = document.querySelector('#menu-bar');
+    let head = document.querySelector('.head .navbar');
+
+    menu.onclick = () => {
+        head.classList.toggle('active');
+    };
+
+    window.onscroll = () => {
+        head.classList.remove('active');
+        if (window.scrollY > 60) {
+            document.querySelector('#menu-bar').classList.add('active');
+        } else {
+            document.querySelector('#menu-bar').classList.remove('active');
+        }
+    };
+</script>    
+</html>

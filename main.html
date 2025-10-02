@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding-----Planner</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <header class="head">
+        <a href="#" class="logo"><i class="fas fa-heart"></i>&nbsp;Baand<span>Baaja</span>Baaraat&nbsp;<i class="fas fa-heart"></i></a>
+        <nav class="navbar ">
+            <a href="#" class="active">Home</a>
+            <a href="#service">Service</a>
+            <a href="#packages">packages</a>
+            <a href="#venue">Venue</a>
+            <a href="#contact">Contact</a>
+            <a href="login.html" button type="button" class="btn btn-primary btn-lg show-modal" data-toggle="modal" data-target="#true">
+              </button>Signup/Login</a>
+        </nav>
+        <div id="menu-bar"><i class="fas fa-bars"></i></div>
+    </header>
+    <!---------------------------Home--------------------->
+    <section class="home" id="home">
+        <form action="#">
+            <div class="search-box">
+                <h1>Your Wedding,Your Way</h1>
+                <p>Make your wedding memeorable with us.</p>
+                <select type="text" class="search-field">
+            <option disabled selected>Select type of wedding</option>
+            <option value="CLASSIC WEDDING">CLASSIC WEDDING</option>
+            <option value="BOHEMIAN WEDDING">BOHEMIAN WEDDING</option>
+            <option value="FAIRYTALE WEDDING">FAIRYTALE WEDDING</option>
+            <option value="GARDEN WEDDING"> GARDEN WEDDING</option>
+            <option value="GLAMOROUS WEDDINGS">GLAMOROUS WEDDINGS</option>
+            <option value="MODERN WEDDINGS">MODERN WEDDINGS</option>
+            <option value="ROMANTIC WEDDINGS">ROMANTIC WEDDINGS</option>
+            <option value="RUSTIC WEDDINGS"> RUSTIC WEDDINGS</option>
+            <option value="VINTAGE WEDDINGS">VINTAGE WEDDINGS</option>
+            <option value="DESTINATION WEDDINGS"> DESTINATION WEDDINGS</option>
+        </select>
+                <select type="text" class="search-field">
+            <option disabled selected>City</option>
+            <option value="Mangalore"> Mangalore</option>
+            <option value="Udupi">Udupi</option>
+            <option value="Puttur">Puttur</option>
+            <option value="Sullia">Sullia</option>
+            <option value="Belthangady">Belthangady</option>
+            <option value="Kasaragod">Kasaragod</option> 
+            <option value="Kanhangad">Kanhangad</option>
+            <option value="Madikeri">Madikeri(Coorg)</option>
+        </select>
+        <select type="text" class="search-field">
+            <option disabled selected>Services</option>
+            <option value="Invitation">Invitation </option>
+            <option value="Photography & Video">Photography & Video</option>
+            <option value="Beauty & Makeup">Beauty & Makeup</option>
+            <option value="Wedding Flowers">Wedding Flowers</option>
+            <option value="Wedding Cake">Wedding Cake</option>
+            <option value="Music Band">Music Band</option> 
+            <option value="Catering">Catering</option>
+            <option value="Jewellery">Jewellery</option>
+        </select>
+                <button class="btn">Confirm</button>
+            </div>
+        </form>
+    </section>
+
+    <!------------------------services-------------------->
+    <section class="service" id="service" onclick="invitation">
+        <div class="title">
+            <h1><span>S</span>ervice</h1>
+        </div>
+        <a href="invitation.html"><div class="services-row" >
+            <div class="services-col">
+                <i class="fas fa-book-open"></i>
+                
+                <h2>Invitation</h2>
+                <p>Invite your specials guest through our designs</p>
+                
+                
+            </div></a>
+            <a href="photography.html">  <div class="services-col">
+                <i class="fas fa-camera"></i>
+                <h2>Photography & Video</h2>
+                <p>Get your wedding memories captured with us</p>
+                
+            </div></a>
+            <a href="makeup.html"><div class="services-col">
+                <i class="fas fa-brush"></i>
+                <h2>Beauty & Makeup</h2>
+                <p>Get ready for the special occasions</p>
+                
+            </div></a>
+            <a href="weddingflower.html"><div class="services-col">
+                <i class="fab fa-pagelines"></i>
+                <h2>Wedding flowers</h2>
+                <p>Spreading positivity throught flowers</p>
+
+              
+            </div></a>
+            <a href="cake.html"><div class="services-col">
+                <i class="fas fa-birthday-cake"></i>
+                <h2>wedding cake</h2>
+                <p>Cake cutting brings luck to your new lives together</p>
+                
+            </div></a>
+            <a href="music.html"><div class="services-col">
+                <i class="fas fa-music"></i>
+                <h2>music band</h2>
+                <p>Music on the special occasions makes memorable</p>
+               
+            </div></a>
+            <a href="catering.html"><div class="services-col">
+                <i class="fas fa-utensils"></i>
+                <h2>Catering</h2>
+                <p>Good taste and service what makes guests happy</p>
+                
+            </div></a>
+            <a href="jewellery.html"><div class="services-col">
+                <i class="fas fa-ring"></i>
+                <h2>Jewellery</h2>
+                <p>Wear Royal and luxuries jewel on your wedding</p>
+                
+            </div></a>
+        </div>
+    </section>
+    <!-----------------------------packages------------------->
+    <section class="packages" id="packages">
+        <div class="title">
+            <h1><span>P</span>ackages</h1>
+            <p>Convenient packages & reliable pricing</p>
+        </div>
+        <div class="packages-list">
+            <div class="packages-row">
+                <div class="rate">4.5&nbsp;<i class="fa fa-star" aria-hidden="true"></i></div>
+                <img src="sample.webp" alt="img">
+                <h2>Modern Reception Design | 1 Day</h2>
+                <p>Decor, Photography, Makeup, Music</p>
+                <h3>Rs.80,000 onwards</h3>
+            </div>
+            <div class="packages-row">
+                <div class="rate">4.2&nbsp;<i class="fa fa-star" aria-hidden="true"></i></div>
+                <img src="pack2.webp" alt="img">
+                <h2>Modern Reception Design | 1 Day</h2>
+                <p>Decor, Photography, Makeup, Venue</p>
+                <h3>Rs.4 Lakh</h3>
+            </div>
+            <div class="packages-row">
+                <div class="rate">5.0&nbsp;<i class="fa fa-star" aria-hidden="true"></i></div>
+                <img src="pack3.webp" alt="img">
+                <h2>Wedding & Mehendi |  2 Day</h2>
+                <p>All inclusive</p>
+                <h3>Rs.30,00,000</h3>
+            </div>
+            <div class="packages-row">
+                <div class="rate">4.1&nbsp;<i class="fa fa-star" aria-hidden="true"></i></div>
+                <img src="pack4.webp" alt="img">
+                <h2>Wedding & Reception |  1 Day</h2>
+                <p>Decor only</p>
+                <h3>Rs.80,000 Onwards</h3>
+            </div>
+            <div class="packages-row">
+                <div class="rate">4.3&nbsp;<i class="fa fa-star" aria-hidden="true"></i></div>
+                <img src="pack5.webp" alt="img">
+                <h2>Wedding & Mehendi |  2 Day</h2>
+                <p>Decor, Photography, makeup, venue</p>
+                <h3>Rs.80,000-30,00,000</h3>
+            </div>
+            <div class="packages-row">
+                <div class="rate">4.2&nbsp;<i class="fa fa-star" aria-hidden="true"></i></div>
+                <img src="pack6.webp" alt="img">
+                <h2> Wedding & Reception |  1 Day</h2>
+                <p>Decor, Photography</p>
+                <h3>Rs.1.8 Lakh</h3>
+            </div>
+            <div class="packages-row">
+                <div class="rate">4.8&nbsp;<i class="fa fa-star" aria-hidden="true"></i></div>
+                <img src="pack7.webp" alt="img">
+                <h2> Wedding Only |  1 Day</h2>
+                <p>All inclusive</p>
+                <h3>Rs.1.8 Lakh</h3>
+            </div>
+            <div class="packages-row">
+                <div class="rate">4.3&nbsp;<i class="fa fa-star" aria-hidden="true"></i></div>
+                <img src="pack8.webp" alt="img">
+                <h2> Wedding & Reception |  2 Day</h2>
+                <p>Decor Only</p>
+                <h3>Rs.1.8 Lakh</h3>
+            </div>
+            <div class="packages-row">
+                <div class="rate">4.5&nbsp;<i class="fa fa-star" aria-hidden="true"></i></div>
+                <img src="pack9.jpg" alt="img">
+                <h2> Reception Only |  1 Day</h2>
+                <p>All inclusive</p>
+                <h3>Rs.1.8 Lakh</h3>
+            </div>
+        </div>
+    </section>
+    <!----------------------------venue Section-------------->
+    <section class="venue" id="venue">
+        <div class="title">
+            <h1><span>V</span>enues</h1>
+        </div>
+        <div class="venue-list">
+            <div class="venue-box">
+                <img src="ozonptr.jpg" alt="img">
+                <div class="venue-info">
+                    <h2>Puttur</h2>
+                    <p>Ozone Guest House</p>
+                    <button class="btn" onclick=window.location.href=''>More Info</button>
+                </div>
+            </div>
+            <div class="venue-box">
+                <img src="janaptr.jpeg" alt="img">
+                <div class="venue-info">
+                    <h2>Puttur</h2>
+                    <p>Janapriya Garden</p>
+                    <button class="btn" onclick=window.location.href=''>More Info</button>
+                </div>
+            </div>
+            <div class="venue-box">
+                <img src="venue-3.jpg" alt="img">
+                <div class="venue-info">
+                    <h2>Mangalore</h2>
+                    <p>RiverRoost Resorts</p>
+                    <button class="btn" onclick=window.location.href='http://www.riverroostresorts.com'>More Info</button>
+                </div>
+            </div>
+            <div class="venue-box">
+                <img src="adyar1.jpg" alt="img">
+                <div class="venue-info">
+                    <h2>Mangalore</h2>
+                    <p>Adyar Garden</p>
+                    <button class="btn" onclick=window.location.href=''>More Info</button>
+                </div>
+            </div>
+            <div class="venue-box">
+                <img src="oceanpearl.jpeg" alt="img">
+                <div class="venue-info">
+                    <h2>Mangalore</h2>
+                    <p>Ociean Pearl Hotel</p>
+                    <button class="btn" onclick=window.location.href='https://www.theoceanpearl.in'>More Info</button>
+                </div>
+            </div>
+            <div class="venue-box">
+                <img src="goldfinch.jpg" alt="img">
+                <div class="venue-info">
+                    <h2>Mangalore</h2>
+                    <p>GoldFinch Hotel </p>
+                    <button class="btn" onclick=window.location.href='https://www.goldfinchhotels.com/goldfinch-mangalore'>More Info</button>
+                </div>
+            </div>
+            <div class="venue-box">
+                <img src="resomnglr'.jpg.webp" alt="img">
+                <div class="venue-info">
+                    <h2>Udupi</h2>
+                    <p>Paradise Isle Beach Resort</p>
+                    <<button class="btn" onclick=window.location.href='https://www.theparadiseisle.com'>More Info</button>
+                </div>
+            </div>
+            <div class="venue-box">
+                <img src="udupi2.webp" alt="img">
+                <div class="venue-info">
+                    <h2>Udupi (Kundapura)</h2>
+                    <p>UVA Meridian Bay Resort & Spa</p>
+                    <button class="btn" onclick=window.location.href='https://www.uvameridian.com'>More Info</button>
+                </div>
+            </div>
+            <div class="venue-box">
+                <img src="coorg1-2.jpg" alt="img">
+                <div class="venue-info">
+                    <h2>Madikeri(Coorg)</h2>
+                    <p>Coorg Wilderness Resort</p>
+                    <button class="btn" onclick=window.location.href='https://www.coorgwildernessresort.in'>More Info</button>
+                </div>
+            </div>
+            <div class="venue-box">
+                <img src="coorg2.jpg" alt="img">
+                <div class="venue-info">
+                    <h2>Madikeri(Coorg)</h2>
+                    <p>Taj Madikeri Resort & Spa</p>
+                    <button class="btn" onclick=window.location.href='https://www.tajhotels.com/en-in/taj/taj-madikeri-coorg'>More Info</button>
+                </div>
+            </div>
+            <div class="venue-box">
+                <img src="kasr1.jpg" alt="img">
+                <div class="venue-info">
+                    <h2>Kasaragod(Kerala)</h2>
+                    <p>Taj Bekal Resort & Spa</p>
+                    <button class="btn" onclick=window.location.href='http://www.tajhotels.com/en-in/taj/taj-bekal-kerala'>More Info</button>
+
+                </div>
+            </div>
+            <div class="venue-box">
+                <img src="kasar2.jpg" alt="img">
+                <div class="venue-info">
+                    <h2>Kasaragod(Kerala)</h2>
+                    <p>Lalith Resort & Spa</p>
+                    <button class="btn" onclick=window.location.href='http://www.thelalit.com/the-lalit-bekal/'>More Info</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------------------------------------------feedback reading---------------------------->
+<section>
+    <div class="title">
+        <h1><span>Customer</span> Reviews</h1>
+    </div>
+</section>
+   
+    <!--------------------------------------------footer section--------------------------->
+    <footer id="contact">
+        <div class="container">
+            <div class="f-container">
+                <h2>Baand Baaja Baaraat - Your Personal Wedding Planner</h2><br>
+                <p>Make your wedding memeorable with us </p>
+                <div>
+                  
+                    <button class="btn">Register as a Vendor</button></a>
+                </div>
+                <div class="social">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-pinterest"></i>
+                </div>
+            </div>
+            <div class="f-container">
+                <h2>Our Location</h2>
+                <a href="#"><i class="fas fa-angle-right"></i>Mangalore</a>
+                <a href="#"><i class="fas fa-angle-right"></i>Udupi</a>
+                <a href="#"><i class="fas fa-angle-right"></i>Puttur</a>
+                <a href="#"><i class=" fas fa-angle-right "></i>Sullia</a>
+                <a href="#"><i class="fas fa-angle-right "></i>Belthangady</a>
+                <a href="#"><i class="fas fa-angle-right "></i>Kasaragod</a>
+                <a href="#"><i class="fas fa-angle-right "></i>Kanhangad</a>
+                <a href="#"><i class="fas fa-angle-right "></i>Madikeri(Coorg)</a>
+                </div>
+                
+                <div class="f-container ">
+                    <h2>Feedback</h2>
+                    <p>Customer Feedback</p>
+                   
+                    <input type="text " placeholder="Enter Your Name ">
+                    <input type="text " placeholder="Enter Your Email ">
+                   
+                      <div class="f-container">
+                        <textarea name="Feedback" id="" cols="40" rows="10" placeholder="Enter Your Feedback"></textarea>
+                         
+                        <button class="btn">Submit</button>
+                      </div>
+                      
+            </div>
+        </footer>
+        <div class="copyright ">
+            <p>Copyright ©2022 All Rights Reserved | Baand Baaja Baaraat</p>
+        </div>
+</body>
+<script>
+     let menu = document.querySelector('#menu-bar');
+    let head = document.querySelector('.head .navbar');
+
+    menu.onclick = () => {
+        head.classList.toggle('active');
+    };
+
+    window.onscroll = () => {
+        head.classList.remove('active');
+        if (window.scrollY > 60) {
+            document.querySelector('#menu-bar').classList.add('active');
+        } else {
+            document.querySelector('#menu-bar').classList.remove('active');
+        }
+    };
+</script>    
+</html>
