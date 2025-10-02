@@ -1,6 +1,6 @@
 # 💍 Baand Baaja Baaraat – Event Management Website 🎉
 
-[**Live Demo**]()
+[**Live Demo**](https://asraruddeen123.github.io/Baand-Baaja-Baaraat--A-Event-Management-website/)
 
 ---
 
